@@ -1,0 +1,85 @@
+body {
+	color: grey;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 18px;
+	background: url("https://media.giphy.com/media/3o6ZsVGl3vuG5g0Kic/giphy.gif");
+	background-size: cover;
+	text-align: center;
+}
+
+h1 {
+	color:  #7C6382;
+	font-weight: lighter;
+	font-family: 'Long Cang', cursive;
+	font-family: 'Loved by the King', cursive;
+	margin: 10px;
+}
+
+
+h2 {
+	color:  #7C6382;
+	font-family: Roboto, sans-serif;
+	font-weight: lighter;
+}
+
+.card-white {
+  background-color: white;
+  width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  box-shadow: 5px 5px 3px #91768B;
+  border-radius: 5px;
+}
+
+.links > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.links a {
+	color: #642E70;
+	padding: 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.links a:hover {
+	color: #A554B8;
+}
+
+.profile-circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.text-justify {
+  text-align: center;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px grey; 
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
+
